@@ -1,0 +1,23 @@
+# Автоматически определять текстовые файлы
+* text=auto
+
+# Python файлы
+*.py text diff=python
+
+# Документы
+*.docx binary
+*.pdf binary
+
+# Изображения
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Markdown
+*.md text
+
+# Настройка переносов строк
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf

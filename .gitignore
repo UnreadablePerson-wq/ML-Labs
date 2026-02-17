@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Лабораторные - временные файлы
+*.npz
+*.npy
+trained_weights.npz
+
+# Изображения (они будут добавляться отдельно, если нужны)
+# Но папки images оставляем
+images/
+!images/.gitkeep
+
+# Отчеты (они вордовские, их не надо в git)
+*.docx
+*.pdf
+report/
+!report/.gitkeep
+
+# Данные MNIST (они большие, лучше не пушить)
+lab4_mnist/Mnist/
+!lab4_mnist/Mnist/.gitkeep
+
+# Логи
+*.log
+sample_outputs/
+!sample_outputs/.gitkeep
