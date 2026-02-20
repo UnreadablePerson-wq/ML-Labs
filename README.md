@@ -146,35 +146,7 @@ python mnist_loader.py
 python train_network.py
 # Посмотри визуализацию
 python visualize_results.py
-## 📁 Структура репозитория
-ML-Labs/
-│
-├── lab1_perceptron/           # Персептрон Розенблатта
-│   ├── perceptron.py          # Основной код
-│   ├── variant18_data.py      # Данные для 18 варианта
-│   └── README.md              # Описание работы
-│
-├── lab2_neural_network/       # Сеть из персептронов
-│   ├── logic_gates.py         # Обучение AND, OR, NAND
-│   ├── perceptron_network.py  # Сборка полной схемы
-│   └── README.md
-│
-├── lab3_backpropagation/      # Обратное распространение
-│   ├── xor_backprop.py        # Основная реализация
-│   ├── network_visualization.py # Визуализация
-│   └── README.md
-│
-├── lab4_mnist/                # Распознавание цифры 8
-│   ├── mnist_loader.py        # Загрузка данных
-│   ├── neural_network.py      # Класс нейросети
-│   ├── train_network.py       # Обучение
-│   ├── visualize_results.py   # Визуализация
-│   ├── utils.py               # Вспомогательные функции
-│   ├── Mnist/                 # Папка с данными (пустая)
-│   └── README.md
-│
-├── requirements.txt           # Общие зависимости
-└── README.md                  # Этот файл
+
 ## 📝 Вариант 18
 Во всех работах используется 18 вариант:
 
