@@ -147,7 +147,7 @@ python train_network.py
 # Посмотри визуализацию
 python visualize_results.py
 ## 📁 Структура репозитория
-ML-Labs-Shevchenko/
+ML-Labs/
 │
 ├── lab1_perceptron/           # Персептрон Розенблатта
 │   ├── perceptron.py          # Основной код
