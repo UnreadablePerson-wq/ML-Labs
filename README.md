@@ -109,7 +109,7 @@
 ## 🛠 Требования и установка
 
 # Клонировать репозиторий
-git clone https://github.com/UnreadablePerson-wq/ML-Labs-Shevchenko.git
+git clone https://github.com/UnreadablePerson-wq/ML-Labs.git
 cd ML-Labs-Shevchenko
 
 # Установить зависимости
