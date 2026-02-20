@@ -110,7 +110,7 @@
 
 # Клонировать репозиторий
 git clone https://github.com/UnreadablePerson-wq/ML-Labs.git
-cd ML-Labs-Shevchenko
+cd ML-Labs
 
 # Установить зависимости
 pip install -r requirements.txt
