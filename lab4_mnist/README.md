@@ -94,6 +94,7 @@ lab4_mnist/
 ## 🚀 Запуск проекта
 
 ### 1. Подготовка данных
+```
 # Скачайте файлы MNIST в папку data/
 # train-images-idx3-ubyte.gz
 # train-labels-idx1-ubyte.gz  
@@ -101,6 +102,7 @@ lab4_mnist/
 # t10k-labels-idx1-ubyte.gz
 
 # Или укажите свой путь в файле mnist_loader.py
+```
 2. Обучение сети
 ```
 python train_network.py
