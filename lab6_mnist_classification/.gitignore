@@ -1,0 +1,38 @@
+# Результаты обучения
+/results/
+*.npz
+*.png
+*.jpg
+*.jpeg
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Временные файлы
+temp/
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+
+# Данные (игнорируем папку Mnist, но это на всякий случай)
+/Mnist/
+*.gz
+*.zip
+*.rar
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
